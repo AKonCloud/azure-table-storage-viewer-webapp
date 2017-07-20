@@ -186,24 +186,23 @@ try{if (!window.CloudFlare) {var CloudFlare=[{verbose:0,p:0,byc:0,owlid:"cf",bag
                                     <div class="span2"><strong>Delivered Date</strong><br><small>Mon, 12 Dec 2016 19:03:58</small></div>
                                 </div>
                                 <br>
-                                <div class="collapse span12 " id="collapse-156130504281743" style="margin-left:0px; min-height:0px;">
-                                    <table class="table table-striped">
-                                        <tr>
-                                            {{#with rows.[0]}}
-                                            {{#each this}}
-                                            <th>{{@key}}</th>
-                                            {{/each}}
-                                            {{/with}}
-                                        </tr>
-                                        {{#each rows}}
-                                        <tr>
-                                            {{#each this}}
-                                            <td>{{this}}</td>
-                                            {{/each}}
-                                        </tr>
+                                <table class="table table-striped">
+                                    <tr>
+                                        {{#with rows.[0]}}
+                                        {{#each this}}
+                                        <th>{{@key}}</th>
                                         {{/each}}
-                                    </table>
-                                </div>
+                                        {{/with}}
+                                    </tr>
+                                    {{#each rows}}
+                                    <tr>
+                                        {{#each this}}
+                                        <td>{{this}}</td>
+                                        {{/each}}
+                                    </tr>
+                                    {{/each}}
+                                </table>
+
                             </div>
                         </div>
                     </div>
@@ -227,7 +226,7 @@ try{if (!window.CloudFlare) {var CloudFlare=[{verbose:0,p:0,byc:0,owlid:"cf",bag
             <div class="container">
                 <div class="row">
                     <div class="span12 copyright">
-DEMO SITE<a class="to-top" href="#top"><i class="fa fa-chevron-up"></i></a>
+                        <h4>DEMO SITE</h4><a class="to-top" href="#top"><i class="fa fa-chevron-up"></i></a>
                     </div>
                 </div>
             </div>
